@@ -1,0 +1,1001 @@
+Degree,Specialization,CGPA,JobRole
+MBA,Business Analytics,6.59,Business Analyst
+BBA,Marketing,7.17,Marketing Manager
+B.Sc,Mathematics,8.89,Quantitative Analyst
+B.Com,Banking,8.71,Bank Officer
+B.Tech,Computer Science,8.37,Software Engineer
+BBA,Marketing,8.17,Marketing Manager
+BBA,Marketing,7.96,Marketing Manager
+BA,Economics,8.09,Economic Analyst
+BBA,HR,8.38,HR Executive
+MBA,HR,7.77,HR Executive
+MBBS,General Medicine,7.25,Doctor
+MCA,Computer Applications,8.82,Application Developer
+B.Sc,Nursing,7.39,Staff Nurse
+B.Tech,Computer Science,8.65,Software Engineer
+MBBS,General Medicine,8.62,Doctor
+B.Com,Finance,7.12,Financial Analyst
+B.Tech,Civil,7.52,Site Engineer
+MBA,Operations,6.79,Operations Manager
+BBA,Marketing,8.27,Marketing Manager
+B.Sc,Nursing,7.25,Staff Nurse
+MBBS,General Medicine,8.9,Doctor
+MBBS,General Medicine,7.71,Doctor
+B.Com,Finance,7.85,Financial Analyst
+B.Tech,Data Science,8.14,Data Scientist
+B.Sc,Chemistry,7.72,Lab Analyst
+B.Tech,Electronics,8.85,Embedded Systems Engineer
+MBBS,General Medicine,8.29,Doctor
+BBA,Entrepreneurship,7.42,Business Development Executive
+MBBS,General Medicine,7.44,Doctor
+MCA,Computer Applications,7.87,Application Developer
+BA,Economics,8.05,Economic Analyst
+MCA,Computer Applications,8.04,Application Developer
+B.Pharm,Pharmacy,8.27,Pharmacist
+B.Com,Banking,7.62,Bank Officer
+B.Tech,Electronics,8.65,Embedded Systems Engineer
+B.Tech,Electronics,7.83,Embedded Systems Engineer
+B.Sc,Physics,8.79,Research Associate
+B.Pharm,Pharmacy,8.1,Pharmacist
+MCA,Computer Applications,6.86,Application Developer
+B.Tech,Data Science,7.33,Data Scientist
+B.Sc,Chemistry,8.09,Lab Analyst
+B.Pharm,Pharmacy,8.03,Pharmacist
+MCA,Computer Applications,6.92,Application Developer
+B.Tech,Information Technology,6.61,IT Analyst
+BA,Economics,7.81,Economic Analyst
+MBBS,General Medicine,8.7,Doctor
+B.Sc,Physics,8.97,Research Associate
+MCA,Computer Applications,8.92,Application Developer
+B.Sc,Mathematics,8.32,Quantitative Analyst
+MCA,Computer Applications,8.91,Application Developer
+B.Pharm,Pharmacy,8.42,Pharmacist
+B.Tech,Data Science,8.4,Data Scientist
+B.Tech,Data Science,8.18,Data Scientist
+MBBS,General Medicine,7.76,Doctor
+MCA,Computer Applications,8.97,Application Developer
+BBA,HR,8.37,HR Executive
+B.Pharm,Pharmacy,6.87,Pharmacist
+B.Sc,Physics,6.73,Research Associate
+B.Pharm,Pharmacy,7.38,Pharmacist
+MCA,Computer Applications,7.23,Application Developer
+BA,Public Administration,7.47,Policy Analyst
+BA,Economics,7.12,Economic Analyst
+B.Com,Accounting,6.86,Accountant
+MCA,Computer Applications,6.57,Application Developer
+BA,English,7.84,Content Specialist
+BBA,Entrepreneurship,6.73,Business Development Executive
+MCA,Computer Applications,6.97,Application Developer
+MBBS,General Medicine,8.18,Doctor
+MBA,Business Analytics,8.52,Business Analyst
+BA,Economics,6.82,Economic Analyst
+B.Pharm,Pharmacy,7.9,Pharmacist
+B.Sc,Physics,7.54,Research Associate
+B.Sc,Statistics,8.97,Data Analyst
+B.Tech,Information Technology,8.84,IT Analyst
+B.Pharm,Pharmacy,7.64,Pharmacist
+MBBS,General Medicine,8.59,Doctor
+B.Tech,Computer Science,7.53,Software Engineer
+B.Sc,Physics,7.23,Research Associate
+B.Com,Taxation,8.65,Tax Consultant
+MBA,Business Analytics,8.95,Business Analyst
+BA,English,6.9,Content Specialist
+MBA,Finance,7.51,Financial Analyst
+BA,Public Administration,8.4,Policy Analyst
+B.Sc,Physics,7.12,Research Associate
+MBBS,General Medicine,6.68,Doctor
+B.Sc,Biotechnology,7.29,Biotech Associate
+MBA,Operations,6.74,Operations Manager
+MCA,Computer Applications,7.1,Application Developer
+BBA,Entrepreneurship,7.88,Business Development Executive
+MBBS,General Medicine,8.02,Doctor
+MCA,Computer Applications,8.22,Application Developer
+MBA,Operations,7.99,Operations Manager
+BBA,Marketing,8.48,Marketing Manager
+BBA,HR,8.16,HR Executive
+MCA,Computer Applications,7.46,Application Developer
+MBBS,General Medicine,7.05,Doctor
+BA,Public Administration,6.54,Policy Analyst
+BBA,HR,7.1,HR Executive
+MCA,Computer Applications,6.74,Application Developer
+MBBS,General Medicine,8.55,Doctor
+BA,Economics,7.11,Economic Analyst
+B.Tech,Electronics,8.99,Embedded Systems Engineer
+B.Sc,Chemistry,7.12,Lab Analyst
+MBBS,General Medicine,6.81,Doctor
+B.Com,Banking,8.78,Bank Officer
+MCA,Computer Applications,8.89,Application Developer
+MBBS,General Medicine,7.0,Doctor
+MBA,Business Analytics,6.79,Business Analyst
+MCA,Computer Applications,7.02,Application Developer
+MBBS,General Medicine,8.14,Doctor
+MBBS,General Medicine,8.5,Doctor
+BBA,Finance,8.2,Financial Analyst
+MBBS,General Medicine,8.35,Doctor
+B.Sc,Nursing,7.45,Staff Nurse
+BBA,Marketing,8.05,Marketing Manager
+B.Com,Banking,8.58,Bank Officer
+BA,Economics,8.37,Economic Analyst
+MCA,Computer Applications,7.18,Application Developer
+B.Com,Taxation,7.3,Tax Consultant
+BBA,Entrepreneurship,7.08,Business Development Executive
+MCA,Computer Applications,8.04,Application Developer
+B.Tech,Mechanical,8.37,Mechanical Design Engineer
+MBA,Finance,8.52,Financial Analyst
+MBBS,General Medicine,6.73,Doctor
+MCA,Computer Applications,6.69,Application Developer
+MBBS,General Medicine,8.28,Doctor
+MCA,Computer Applications,7.75,Application Developer
+B.Sc,Chemistry,7.6,Lab Analyst
+B.Sc,Physics,7.1,Research Associate
+MBBS,General Medicine,7.4,Doctor
+BA,Public Administration,7.75,Policy Analyst
+B.Tech,Data Science,8.28,Data Scientist
+MCA,Computer Applications,8.92,Application Developer
+MBA,Finance,8.8,Financial Analyst
+MCA,Computer Applications,8.36,Application Developer
+MBA,HR,6.55,HR Executive
+BA,Psychology,7.0,Counselor
+BBA,Entrepreneurship,8.11,Business Development Executive
+B.Tech,Information Technology,8.55,IT Analyst
+B.Pharm,Pharmacy,8.92,Pharmacist
+B.Com,Accounting,8.0,Accountant
+B.Com,Accounting,6.89,Accountant
+B.Sc,Nursing,7.99,Staff Nurse
+BBA,Marketing,7.65,Marketing Manager
+BBA,Finance,8.51,Financial Analyst
+B.Com,Banking,7.64,Bank Officer
+B.Com,Accounting,6.92,Accountant
+B.Tech,Civil,8.9,Site Engineer
+MBBS,General Medicine,7.41,Doctor
+MBBS,General Medicine,9.0,Doctor
+B.Pharm,Pharmacy,8.74,Pharmacist
+B.Pharm,Pharmacy,8.74,Pharmacist
+MCA,Computer Applications,7.3,Application Developer
+MBA,HR,7.94,HR Executive
+MBBS,General Medicine,8.46,Doctor
+B.Sc,Statistics,7.99,Data Analyst
+MBBS,General Medicine,6.61,Doctor
+B.Tech,AI & ML,7.04,ML Engineer
+B.Pharm,Pharmacy,7.2,Pharmacist
+B.Pharm,Pharmacy,7.86,Pharmacist
+MBA,Finance,7.23,Financial Analyst
+MBBS,General Medicine,7.76,Doctor
+MBBS,General Medicine,6.77,Doctor
+BBA,Finance,6.63,Financial Analyst
+BA,Psychology,8.53,Counselor
+BA,English,8.3,Content Specialist
+B.Com,Taxation,8.67,Tax Consultant
+B.Pharm,Pharmacy,7.93,Pharmacist
+BBA,Entrepreneurship,8.78,Business Development Executive
+B.Tech,Electronics,7.4,Embedded Systems Engineer
+B.Sc,Nursing,8.75,Staff Nurse
+B.Tech,Mechanical,7.41,Mechanical Design Engineer
+B.Pharm,Pharmacy,7.57,Pharmacist
+MCA,Computer Applications,7.08,Application Developer
+BBA,Finance,8.68,Financial Analyst
+BBA,Marketing,8.87,Marketing Manager
+MBBS,General Medicine,6.68,Doctor
+B.Tech,Mechanical,8.34,Mechanical Design Engineer
+B.Com,Banking,7.62,Bank Officer
+B.Tech,Electronics,8.13,Embedded Systems Engineer
+MCA,Computer Applications,7.09,Application Developer
+MBBS,General Medicine,6.94,Doctor
+BA,Public Administration,8.45,Policy Analyst
+BBA,HR,7.39,HR Executive
+B.Com,Taxation,7.28,Tax Consultant
+MCA,Computer Applications,7.51,Application Developer
+B.Pharm,Pharmacy,7.97,Pharmacist
+B.Tech,Computer Science,8.47,Software Engineer
+BBA,Entrepreneurship,7.46,Business Development Executive
+B.Sc,Mathematics,7.53,Quantitative Analyst
+B.Com,Banking,8.89,Bank Officer
+B.Com,Banking,8.47,Bank Officer
+BA,Public Administration,8.13,Policy Analyst
+B.Sc,Physics,7.76,Research Associate
+BBA,Marketing,7.1,Marketing Manager
+MBBS,General Medicine,7.38,Doctor
+B.Com,Accounting,8.77,Accountant
+BBA,Entrepreneurship,7.92,Business Development Executive
+B.Sc,Nursing,8.85,Staff Nurse
+B.Pharm,Pharmacy,6.89,Pharmacist
+BA,Psychology,7.16,Counselor
+MBA,HR,8.15,HR Executive
+BA,Economics,7.9,Economic Analyst
+B.Sc,Statistics,7.37,Data Analyst
+B.Tech,Civil,8.96,Site Engineer
+MCA,Computer Applications,7.12,Application Developer
+B.Com,Finance,7.46,Financial Analyst
+MBBS,General Medicine,7.43,Doctor
+MBA,HR,7.06,HR Executive
+B.Pharm,Pharmacy,8.88,Pharmacist
+BA,Economics,8.18,Economic Analyst
+B.Tech,Electronics,7.22,Embedded Systems Engineer
+MCA,Computer Applications,7.69,Application Developer
+MCA,Computer Applications,6.85,Application Developer
+B.Com,Banking,8.13,Bank Officer
+B.Tech,Civil,7.41,Site Engineer
+MBA,HR,7.21,HR Executive
+BA,English,6.58,Content Specialist
+B.Sc,Physics,8.49,Research Associate
+BBA,Marketing,8.39,Marketing Manager
+BA,Economics,8.04,Economic Analyst
+MBBS,General Medicine,7.33,Doctor
+B.Sc,Biotechnology,8.8,Biotech Associate
+B.Pharm,Pharmacy,6.82,Pharmacist
+MBBS,General Medicine,7.93,Doctor
+MBA,Operations,6.72,Operations Manager
+BBA,HR,7.41,HR Executive
+MBA,Marketing,6.61,Marketing Manager
+MBBS,General Medicine,7.64,Doctor
+MBBS,General Medicine,8.01,Doctor
+MBBS,General Medicine,8.56,Doctor
+B.Tech,Information Technology,8.28,IT Analyst
+BA,Psychology,7.84,Counselor
+B.Pharm,Pharmacy,8.61,Pharmacist
+B.Tech,Data Science,6.77,Data Scientist
+MCA,Computer Applications,7.4,Application Developer
+B.Tech,Civil,7.23,Site Engineer
+B.Sc,Nursing,7.79,Staff Nurse
+B.Com,Taxation,6.77,Tax Consultant
+B.Sc,Statistics,7.54,Data Analyst
+MCA,Computer Applications,6.57,Application Developer
+B.Pharm,Pharmacy,8.04,Pharmacist
+B.Sc,Mathematics,8.37,Quantitative Analyst
+MBA,Finance,6.51,Financial Analyst
+BBA,HR,8.99,HR Executive
+B.Com,Accounting,8.59,Accountant
+MCA,Computer Applications,7.22,Application Developer
+BA,English,7.56,Content Specialist
+MBA,Operations,6.67,Operations Manager
+B.Pharm,Pharmacy,8.66,Pharmacist
+B.Pharm,Pharmacy,6.64,Pharmacist
+B.Tech,Electronics,6.5,Embedded Systems Engineer
+B.Sc,Physics,6.74,Research Associate
+B.Sc,Nursing,7.2,Staff Nurse
+B.Pharm,Pharmacy,8.18,Pharmacist
+B.Sc,Nursing,7.24,Staff Nurse
+B.Com,Banking,8.95,Bank Officer
+B.Com,Taxation,6.9,Tax Consultant
+BA,Economics,6.83,Economic Analyst
+B.Tech,Civil,7.0,Site Engineer
+B.Com,Banking,8.79,Bank Officer
+B.Com,Taxation,6.7,Tax Consultant
+B.Pharm,Pharmacy,8.17,Pharmacist
+BA,English,7.52,Content Specialist
+BA,Public Administration,8.85,Policy Analyst
+MBA,Marketing,7.43,Marketing Manager
+B.Com,Banking,7.29,Bank Officer
+B.Pharm,Pharmacy,7.65,Pharmacist
+BBA,Entrepreneurship,7.75,Business Development Executive
+B.Tech,Computer Science,9.0,Software Engineer
+B.Com,Taxation,7.62,Tax Consultant
+BBA,HR,6.9,HR Executive
+B.Sc,Chemistry,8.4,Lab Analyst
+MBBS,General Medicine,8.26,Doctor
+B.Tech,Electronics,8.83,Embedded Systems Engineer
+B.Com,Finance,8.89,Financial Analyst
+BBA,Marketing,8.24,Marketing Manager
+MBBS,General Medicine,7.99,Doctor
+B.Tech,Computer Science,7.96,Software Engineer
+B.Tech,Information Technology,8.82,IT Analyst
+B.Tech,Information Technology,7.6,IT Analyst
+MBA,HR,6.89,HR Executive
+MBBS,General Medicine,8.98,Doctor
+BA,Psychology,7.62,Counselor
+B.Sc,Mathematics,7.35,Quantitative Analyst
+B.Tech,Mechanical,7.6,Mechanical Design Engineer
+BBA,Entrepreneurship,7.61,Business Development Executive
+B.Tech,Computer Science,7.42,Software Engineer
+B.Pharm,Pharmacy,8.95,Pharmacist
+B.Tech,Electronics,7.04,Embedded Systems Engineer
+B.Com,Banking,8.65,Bank Officer
+MBBS,General Medicine,8.28,Doctor
+BBA,Finance,7.87,Financial Analyst
+B.Pharm,Pharmacy,7.21,Pharmacist
+B.Sc,Physics,7.5,Research Associate
+MBA,HR,7.9,HR Executive
+MCA,Computer Applications,8.91,Application Developer
+B.Tech,Mechanical,6.55,Mechanical Design Engineer
+MBBS,General Medicine,8.4,Doctor
+BBA,Marketing,7.64,Marketing Manager
+MCA,Computer Applications,7.78,Application Developer
+B.Com,Finance,6.76,Financial Analyst
+MBBS,General Medicine,8.76,Doctor
+MCA,Computer Applications,6.52,Application Developer
+MCA,Computer Applications,7.91,Application Developer
+MBA,Finance,7.97,Financial Analyst
+BBA,Finance,8.47,Financial Analyst
+MBBS,General Medicine,8.09,Doctor
+MBA,Marketing,8.38,Marketing Manager
+MBA,Marketing,8.93,Marketing Manager
+MBBS,General Medicine,7.12,Doctor
+MCA,Computer Applications,8.93,Application Developer
+B.Tech,Computer Science,6.61,Software Engineer
+B.Pharm,Pharmacy,7.82,Pharmacist
+MBA,HR,7.65,HR Executive
+B.Tech,Mechanical,8.77,Mechanical Design Engineer
+BBA,HR,7.07,HR Executive
+MBA,Finance,7.09,Financial Analyst
+MCA,Computer Applications,7.25,Application Developer
+MBBS,General Medicine,7.79,Doctor
+MBBS,General Medicine,8.92,Doctor
+BBA,Entrepreneurship,8.03,Business Development Executive
+MBBS,General Medicine,8.06,Doctor
+BBA,Marketing,7.93,Marketing Manager
+B.Com,Accounting,7.75,Accountant
+BA,Economics,8.08,Economic Analyst
+MCA,Computer Applications,7.16,Application Developer
+MCA,Computer Applications,8.92,Application Developer
+BBA,Finance,7.65,Financial Analyst
+MCA,Computer Applications,7.8,Application Developer
+MCA,Computer Applications,8.67,Application Developer
+MCA,Computer Applications,7.11,Application Developer
+B.Sc,Chemistry,7.25,Lab Analyst
+MBA,Marketing,6.55,Marketing Manager
+MBA,Finance,8.35,Financial Analyst
+MBBS,General Medicine,7.14,Doctor
+B.Sc,Physics,6.95,Research Associate
+MBA,Operations,6.84,Operations Manager
+BA,English,6.85,Content Specialist
+B.Pharm,Pharmacy,8.5,Pharmacist
+B.Com,Banking,6.89,Bank Officer
+B.Sc,Nursing,7.42,Staff Nurse
+B.Sc,Mathematics,8.38,Quantitative Analyst
+B.Pharm,Pharmacy,8.2,Pharmacist
+MBBS,General Medicine,8.88,Doctor
+MBA,HR,8.2,HR Executive
+MBA,HR,8.44,HR Executive
+MBA,Finance,7.51,Financial Analyst
+MBBS,General Medicine,7.29,Doctor
+MBBS,General Medicine,7.79,Doctor
+BA,English,7.34,Content Specialist
+BBA,HR,8.06,HR Executive
+B.Pharm,Pharmacy,7.31,Pharmacist
+B.Com,Taxation,7.66,Tax Consultant
+BA,English,7.33,Content Specialist
+B.Pharm,Pharmacy,7.46,Pharmacist
+BA,Economics,8.31,Economic Analyst
+MBBS,General Medicine,7.32,Doctor
+B.Tech,Civil,8.36,Site Engineer
+B.Com,Accounting,7.21,Accountant
+MBBS,General Medicine,8.42,Doctor
+B.Sc,Nursing,6.6,Staff Nurse
+MBA,HR,8.06,HR Executive
+MBBS,General Medicine,8.11,Doctor
+B.Sc,Nursing,6.7,Staff Nurse
+BA,Public Administration,8.71,Policy Analyst
+BBA,HR,8.21,HR Executive
+B.Tech,Electronics,7.94,Embedded Systems Engineer
+MCA,Computer Applications,8.48,Application Developer
+BBA,Finance,7.88,Financial Analyst
+MCA,Computer Applications,8.76,Application Developer
+B.Pharm,Pharmacy,8.13,Pharmacist
+MBBS,General Medicine,7.87,Doctor
+MCA,Computer Applications,7.72,Application Developer
+B.Pharm,Pharmacy,7.05,Pharmacist
+MCA,Computer Applications,7.83,Application Developer
+B.Com,Finance,8.3,Financial Analyst
+BBA,Finance,7.52,Financial Analyst
+MBBS,General Medicine,7.87,Doctor
+BBA,Entrepreneurship,7.98,Business Development Executive
+B.Tech,Information Technology,6.87,IT Analyst
+B.Sc,Physics,8.55,Research Associate
+MBBS,General Medicine,7.73,Doctor
+BA,Public Administration,7.35,Policy Analyst
+B.Sc,Biotechnology,8.99,Biotech Associate
+BBA,Entrepreneurship,6.52,Business Development Executive
+B.Tech,Computer Science,6.55,Software Engineer
+BBA,HR,6.61,HR Executive
+B.Sc,Statistics,8.6,Data Analyst
+MBA,Finance,6.73,Financial Analyst
+B.Tech,Electronics,7.06,Embedded Systems Engineer
+MBBS,General Medicine,7.77,Doctor
+MBBS,General Medicine,7.49,Doctor
+MBA,Finance,8.86,Financial Analyst
+BA,Public Administration,7.01,Policy Analyst
+B.Pharm,Pharmacy,7.97,Pharmacist
+MBBS,General Medicine,8.52,Doctor
+B.Com,Accounting,6.94,Accountant
+B.Pharm,Pharmacy,6.96,Pharmacist
+B.Sc,Biotechnology,8.94,Biotech Associate
+B.Pharm,Pharmacy,8.21,Pharmacist
+MCA,Computer Applications,7.99,Application Developer
+B.Sc,Nursing,9.0,Staff Nurse
+BA,Public Administration,7.42,Policy Analyst
+B.Pharm,Pharmacy,7.32,Pharmacist
+BA,Psychology,7.78,Counselor
+BBA,Entrepreneurship,6.72,Business Development Executive
+B.Sc,Physics,7.67,Research Associate
+MCA,Computer Applications,8.82,Application Developer
+BBA,Finance,7.23,Financial Analyst
+MBA,Operations,8.34,Operations Manager
+MBBS,General Medicine,7.57,Doctor
+BA,English,6.62,Content Specialist
+BA,English,6.95,Content Specialist
+B.Sc,Biotechnology,7.34,Biotech Associate
+B.Pharm,Pharmacy,7.83,Pharmacist
+BBA,Finance,7.7,Financial Analyst
+MCA,Computer Applications,8.48,Application Developer
+B.Pharm,Pharmacy,8.53,Pharmacist
+MBBS,General Medicine,7.38,Doctor
+MBA,Business Analytics,7.19,Business Analyst
+MBA,Finance,7.98,Financial Analyst
+BBA,HR,8.2,HR Executive
+MBA,Business Analytics,7.66,Business Analyst
+B.Sc,Physics,7.59,Research Associate
+BBA,Marketing,8.57,Marketing Manager
+B.Pharm,Pharmacy,8.63,Pharmacist
+BA,Psychology,7.85,Counselor
+BBA,HR,7.9,HR Executive
+MCA,Computer Applications,8.14,Application Developer
+B.Pharm,Pharmacy,7.46,Pharmacist
+BBA,HR,6.75,HR Executive
+B.Sc,Statistics,8.87,Data Analyst
+BA,Economics,8.53,Economic Analyst
+BA,Economics,6.57,Economic Analyst
+MBBS,General Medicine,8.32,Doctor
+MCA,Computer Applications,8.38,Application Developer
+B.Pharm,Pharmacy,7.97,Pharmacist
+B.Pharm,Pharmacy,6.92,Pharmacist
+MCA,Computer Applications,6.61,Application Developer
+BBA,Marketing,8.3,Marketing Manager
+B.Tech,Data Science,6.81,Data Scientist
+B.Com,Taxation,6.89,Tax Consultant
+BA,Economics,8.2,Economic Analyst
+B.Tech,Civil,6.88,Site Engineer
+MBBS,General Medicine,8.42,Doctor
+B.Pharm,Pharmacy,7.9,Pharmacist
+MCA,Computer Applications,8.6,Application Developer
+B.Pharm,Pharmacy,8.72,Pharmacist
+B.Com,Finance,7.69,Financial Analyst
+MBBS,General Medicine,7.11,Doctor
+B.Sc,Biotechnology,8.05,Biotech Associate
+MBA,HR,7.57,HR Executive
+MBBS,General Medicine,7.18,Doctor
+MCA,Computer Applications,8.22,Application Developer
+BA,Public Administration,7.28,Policy Analyst
+B.Tech,Data Science,8.3,Data Scientist
+B.Tech,AI & ML,7.34,ML Engineer
+MBBS,General Medicine,6.82,Doctor
+BBA,Entrepreneurship,7.55,Business Development Executive
+BA,Psychology,8.66,Counselor
+BBA,Marketing,7.38,Marketing Manager
+B.Sc,Chemistry,8.41,Lab Analyst
+B.Com,Accounting,6.53,Accountant
+BBA,Entrepreneurship,7.63,Business Development Executive
+MCA,Computer Applications,6.61,Application Developer
+B.Pharm,Pharmacy,8.93,Pharmacist
+BA,Public Administration,7.71,Policy Analyst
+B.Pharm,Pharmacy,7.13,Pharmacist
+B.Sc,Statistics,6.71,Data Analyst
+B.Com,Finance,7.92,Financial Analyst
+MBA,Finance,7.84,Financial Analyst
+B.Tech,Civil,8.13,Site Engineer
+MCA,Computer Applications,8.18,Application Developer
+MBBS,General Medicine,7.14,Doctor
+B.Pharm,Pharmacy,6.88,Pharmacist
+MBA,Finance,6.5,Financial Analyst
+BA,Psychology,6.72,Counselor
+MBA,Business Analytics,6.83,Business Analyst
+B.Sc,Chemistry,7.67,Lab Analyst
+MBA,Marketing,8.94,Marketing Manager
+B.Sc,Physics,8.7,Research Associate
+MBA,HR,8.62,HR Executive
+MBA,Finance,7.58,Financial Analyst
+MCA,Computer Applications,7.58,Application Developer
+B.Pharm,Pharmacy,6.88,Pharmacist
+MBA,HR,8.6,HR Executive
+MBBS,General Medicine,8.07,Doctor
+MCA,Computer Applications,7.86,Application Developer
+B.Sc,Chemistry,6.84,Lab Analyst
+B.Pharm,Pharmacy,7.52,Pharmacist
+B.Com,Taxation,8.83,Tax Consultant
+B.Sc,Chemistry,6.85,Lab Analyst
+MBA,Operations,6.89,Operations Manager
+B.Com,Finance,7.45,Financial Analyst
+B.Tech,Computer Science,8.11,Software Engineer
+BA,English,8.66,Content Specialist
+B.Tech,AI & ML,6.7,ML Engineer
+B.Com,Banking,7.56,Bank Officer
+BA,Public Administration,7.87,Policy Analyst
+B.Pharm,Pharmacy,8.23,Pharmacist
+B.Com,Accounting,8.77,Accountant
+BA,Economics,6.73,Economic Analyst
+B.Com,Banking,8.47,Bank Officer
+B.Sc,Nursing,8.85,Staff Nurse
+B.Tech,Electronics,8.17,Embedded Systems Engineer
+B.Pharm,Pharmacy,8.39,Pharmacist
+BA,Public Administration,6.68,Policy Analyst
+BBA,Finance,7.84,Financial Analyst
+B.Pharm,Pharmacy,7.24,Pharmacist
+MBBS,General Medicine,8.86,Doctor
+B.Sc,Biotechnology,6.61,Biotech Associate
+B.Sc,Nursing,7.75,Staff Nurse
+B.Sc,Nursing,6.98,Staff Nurse
+MBBS,General Medicine,8.94,Doctor
+B.Pharm,Pharmacy,7.81,Pharmacist
+BA,English,7.27,Content Specialist
+B.Com,Banking,6.95,Bank Officer
+MBBS,General Medicine,6.72,Doctor
+B.Pharm,Pharmacy,6.91,Pharmacist
+B.Com,Banking,8.14,Bank Officer
+B.Com,Banking,7.18,Bank Officer
+B.Pharm,Pharmacy,7.41,Pharmacist
+BBA,Entrepreneurship,8.92,Business Development Executive
+MCA,Computer Applications,8.92,Application Developer
+B.Pharm,Pharmacy,8.78,Pharmacist
+B.Sc,Statistics,8.74,Data Analyst
+BA,Psychology,7.59,Counselor
+B.Sc,Biotechnology,6.88,Biotech Associate
+B.Pharm,Pharmacy,6.83,Pharmacist
+MBA,Operations,7.86,Operations Manager
+BBA,Entrepreneurship,6.85,Business Development Executive
+MBBS,General Medicine,8.54,Doctor
+BA,Public Administration,7.11,Policy Analyst
+MCA,Computer Applications,6.79,Application Developer
+MBA,Marketing,7.59,Marketing Manager
+MBA,Business Analytics,7.05,Business Analyst
+B.Tech,Information Technology,7.45,IT Analyst
+BBA,HR,8.64,HR Executive
+BA,Public Administration,8.08,Policy Analyst
+B.Com,Finance,6.82,Financial Analyst
+B.Sc,Mathematics,7.31,Quantitative Analyst
+BA,Economics,8.56,Economic Analyst
+B.Tech,AI & ML,7.7,ML Engineer
+B.Sc,Biotechnology,8.51,Biotech Associate
+BBA,Entrepreneurship,8.1,Business Development Executive
+B.Pharm,Pharmacy,7.48,Pharmacist
+BA,Psychology,7.6,Counselor
+B.Sc,Biotechnology,6.83,Biotech Associate
+B.Pharm,Pharmacy,8.85,Pharmacist
+B.Com,Banking,6.56,Bank Officer
+B.Sc,Biotechnology,6.98,Biotech Associate
+B.Pharm,Pharmacy,8.52,Pharmacist
+B.Tech,Computer Science,8.27,Software Engineer
+BA,English,7.99,Content Specialist
+B.Tech,Computer Science,6.75,Software Engineer
+BBA,HR,8.44,HR Executive
+B.Com,Taxation,7.53,Tax Consultant
+B.Sc,Mathematics,7.1,Quantitative Analyst
+BA,English,8.12,Content Specialist
+BBA,Marketing,7.98,Marketing Manager
+B.Com,Banking,6.69,Bank Officer
+B.Pharm,Pharmacy,6.77,Pharmacist
+MBA,Operations,8.31,Operations Manager
+B.Com,Banking,7.8,Bank Officer
+BA,Public Administration,8.39,Policy Analyst
+BBA,Entrepreneurship,8.38,Business Development Executive
+B.Pharm,Pharmacy,8.89,Pharmacist
+B.Pharm,Pharmacy,6.73,Pharmacist
+B.Tech,Electronics,8.52,Embedded Systems Engineer
+MBA,Business Analytics,7.54,Business Analyst
+MBA,HR,7.38,HR Executive
+MBBS,General Medicine,7.91,Doctor
+BA,Psychology,7.16,Counselor
+B.Pharm,Pharmacy,7.47,Pharmacist
+MBA,Finance,7.28,Financial Analyst
+MCA,Computer Applications,7.66,Application Developer
+B.Pharm,Pharmacy,8.12,Pharmacist
+MCA,Computer Applications,8.68,Application Developer
+B.Tech,Civil,7.69,Site Engineer
+MCA,Computer Applications,7.64,Application Developer
+B.Sc,Chemistry,7.43,Lab Analyst
+MBBS,General Medicine,7.17,Doctor
+BBA,Marketing,7.35,Marketing Manager
+B.Com,Banking,6.92,Bank Officer
+MBBS,General Medicine,6.95,Doctor
+MCA,Computer Applications,8.22,Application Developer
+MBBS,General Medicine,7.77,Doctor
+B.Pharm,Pharmacy,8.42,Pharmacist
+MCA,Computer Applications,8.17,Application Developer
+MBA,Marketing,8.06,Marketing Manager
+MBBS,General Medicine,7.13,Doctor
+MBA,HR,6.91,HR Executive
+B.Sc,Mathematics,8.41,Quantitative Analyst
+MCA,Computer Applications,8.26,Application Developer
+B.Pharm,Pharmacy,6.63,Pharmacist
+MBBS,General Medicine,7.35,Doctor
+BBA,HR,6.62,HR Executive
+B.Pharm,Pharmacy,6.82,Pharmacist
+BBA,Entrepreneurship,8.79,Business Development Executive
+MBBS,General Medicine,8.64,Doctor
+MBA,HR,6.95,HR Executive
+BA,Economics,7.09,Economic Analyst
+B.Com,Taxation,7.99,Tax Consultant
+MBBS,General Medicine,7.21,Doctor
+MBBS,General Medicine,7.43,Doctor
+BA,English,8.42,Content Specialist
+B.Com,Finance,8.66,Financial Analyst
+B.Com,Taxation,8.51,Tax Consultant
+MBBS,General Medicine,8.41,Doctor
+MBBS,General Medicine,7.32,Doctor
+MCA,Computer Applications,6.69,Application Developer
+MBA,Finance,8.41,Financial Analyst
+B.Com,Taxation,6.97,Tax Consultant
+B.Com,Finance,7.53,Financial Analyst
+BBA,Finance,8.2,Financial Analyst
+MBA,Operations,7.43,Operations Manager
+B.Sc,Chemistry,6.61,Lab Analyst
+BA,Economics,7.42,Economic Analyst
+BA,Economics,6.78,Economic Analyst
+BBA,Entrepreneurship,7.17,Business Development Executive
+BA,Public Administration,8.58,Policy Analyst
+MBA,Marketing,8.82,Marketing Manager
+MCA,Computer Applications,6.51,Application Developer
+MBA,Finance,8.15,Financial Analyst
+MBA,Operations,7.86,Operations Manager
+BA,Economics,8.94,Economic Analyst
+MBA,Operations,8.19,Operations Manager
+B.Pharm,Pharmacy,8.37,Pharmacist
+B.Sc,Physics,7.36,Research Associate
+MBBS,General Medicine,7.56,Doctor
+BBA,Entrepreneurship,8.03,Business Development Executive
+MBBS,General Medicine,7.54,Doctor
+B.Pharm,Pharmacy,8.39,Pharmacist
+BA,Public Administration,8.28,Policy Analyst
+B.Com,Finance,7.04,Financial Analyst
+B.Sc,Biotechnology,7.17,Biotech Associate
+B.Pharm,Pharmacy,7.19,Pharmacist
+B.Com,Accounting,7.78,Accountant
+B.Tech,Data Science,7.49,Data Scientist
+BA,Economics,8.16,Economic Analyst
+B.Com,Taxation,6.54,Tax Consultant
+B.Tech,AI & ML,8.3,ML Engineer
+MBBS,General Medicine,8.43,Doctor
+BBA,HR,6.54,HR Executive
+B.Sc,Chemistry,8.18,Lab Analyst
+MBBS,General Medicine,7.16,Doctor
+B.Tech,Data Science,7.36,Data Scientist
+MCA,Computer Applications,6.7,Application Developer
+MCA,Computer Applications,8.43,Application Developer
+MCA,Computer Applications,8.85,Application Developer
+BA,Psychology,8.49,Counselor
+MCA,Computer Applications,7.37,Application Developer
+MBBS,General Medicine,7.25,Doctor
+B.Sc,Physics,7.75,Research Associate
+MBA,Business Analytics,8.98,Business Analyst
+B.Com,Finance,6.93,Financial Analyst
+MBA,Business Analytics,7.64,Business Analyst
+MBBS,General Medicine,6.69,Doctor
+MCA,Computer Applications,8.92,Application Developer
+B.Tech,Data Science,8.65,Data Scientist
+MBBS,General Medicine,6.83,Doctor
+B.Pharm,Pharmacy,7.55,Pharmacist
+BA,Public Administration,7.65,Policy Analyst
+B.Tech,Electronics,7.41,Embedded Systems Engineer
+BA,English,8.31,Content Specialist
+MBA,Finance,8.57,Financial Analyst
+MBBS,General Medicine,6.73,Doctor
+BA,English,6.61,Content Specialist
+B.Pharm,Pharmacy,7.36,Pharmacist
+BBA,Finance,6.54,Financial Analyst
+MCA,Computer Applications,7.63,Application Developer
+BBA,Finance,8.75,Financial Analyst
+MBA,Business Analytics,8.17,Business Analyst
+MBA,Business Analytics,8.68,Business Analyst
+B.Sc,Biotechnology,8.75,Biotech Associate
+BBA,Finance,8.14,Financial Analyst
+BA,Psychology,8.62,Counselor
+B.Tech,Electronics,8.83,Embedded Systems Engineer
+MBA,HR,8.7,HR Executive
+B.Tech,Data Science,6.72,Data Scientist
+B.Tech,Mechanical,6.76,Mechanical Design Engineer
+B.Tech,Information Technology,7.76,IT Analyst
+B.Com,Banking,7.35,Bank Officer
+B.Pharm,Pharmacy,7.93,Pharmacist
+BA,English,8.93,Content Specialist
+MCA,Computer Applications,7.95,Application Developer
+B.Pharm,Pharmacy,8.09,Pharmacist
+B.Pharm,Pharmacy,8.12,Pharmacist
+MCA,Computer Applications,8.63,Application Developer
+B.Sc,Mathematics,7.15,Quantitative Analyst
+B.Com,Banking,7.76,Bank Officer
+B.Sc,Mathematics,8.18,Quantitative Analyst
+B.Pharm,Pharmacy,8.92,Pharmacist
+B.Sc,Statistics,8.03,Data Analyst
+MBBS,General Medicine,8.41,Doctor
+BA,English,8.56,Content Specialist
+B.Com,Banking,8.91,Bank Officer
+B.Sc,Nursing,7.99,Staff Nurse
+BBA,Entrepreneurship,7.74,Business Development Executive
+B.Com,Accounting,7.75,Accountant
+BBA,Entrepreneurship,7.29,Business Development Executive
+MBA,Business Analytics,8.66,Business Analyst
+B.Tech,AI & ML,6.97,ML Engineer
+B.Pharm,Pharmacy,8.97,Pharmacist
+B.Sc,Nursing,8.84,Staff Nurse
+BBA,Finance,6.56,Financial Analyst
+BBA,HR,7.06,HR Executive
+MBBS,General Medicine,8.54,Doctor
+BA,English,8.31,Content Specialist
+B.Pharm,Pharmacy,7.7,Pharmacist
+BBA,Marketing,8.78,Marketing Manager
+BBA,Marketing,8.09,Marketing Manager
+B.Sc,Physics,7.32,Research Associate
+MCA,Computer Applications,6.52,Application Developer
+MBA,Finance,8.39,Financial Analyst
+BBA,Entrepreneurship,7.32,Business Development Executive
+B.Sc,Nursing,7.57,Staff Nurse
+B.Pharm,Pharmacy,7.41,Pharmacist
+BA,Psychology,7.78,Counselor
+MCA,Computer Applications,6.64,Application Developer
+MBBS,General Medicine,8.49,Doctor
+MBBS,General Medicine,7.47,Doctor
+BBA,Finance,7.28,Financial Analyst
+B.Sc,Chemistry,8.95,Lab Analyst
+MCA,Computer Applications,8.92,Application Developer
+BBA,Finance,6.56,Financial Analyst
+MCA,Computer Applications,8.59,Application Developer
+B.Sc,Statistics,8.73,Data Analyst
+MBA,Operations,7.77,Operations Manager
+MBBS,General Medicine,6.89,Doctor
+B.Tech,Information Technology,6.89,IT Analyst
+B.Com,Banking,8.04,Bank Officer
+B.Pharm,Pharmacy,6.53,Pharmacist
+MBA,Business Analytics,8.09,Business Analyst
+BBA,HR,6.92,HR Executive
+MBA,Marketing,7.24,Marketing Manager
+MCA,Computer Applications,8.32,Application Developer
+MBBS,General Medicine,6.98,Doctor
+B.Pharm,Pharmacy,6.89,Pharmacist
+B.Sc,Physics,8.9,Research Associate
+BBA,HR,8.54,HR Executive
+MBA,Business Analytics,8.62,Business Analyst
+BA,Economics,6.81,Economic Analyst
+B.Sc,Biotechnology,7.88,Biotech Associate
+B.Sc,Nursing,8.83,Staff Nurse
+MCA,Computer Applications,8.99,Application Developer
+BBA,HR,7.08,HR Executive
+MCA,Computer Applications,8.45,Application Developer
+B.Com,Accounting,7.49,Accountant
+MCA,Computer Applications,8.49,Application Developer
+B.Sc,Physics,7.71,Research Associate
+MCA,Computer Applications,8.61,Application Developer
+B.Pharm,Pharmacy,7.45,Pharmacist
+MBA,Marketing,8.35,Marketing Manager
+MCA,Computer Applications,8.16,Application Developer
+B.Sc,Statistics,6.76,Data Analyst
+BBA,Entrepreneurship,7.29,Business Development Executive
+MBBS,General Medicine,6.93,Doctor
+B.Sc,Physics,8.6,Research Associate
+B.Tech,Electronics,7.03,Embedded Systems Engineer
+B.Pharm,Pharmacy,6.79,Pharmacist
+B.Com,Banking,6.76,Bank Officer
+B.Com,Banking,7.55,Bank Officer
+B.Sc,Physics,7.5,Research Associate
+MCA,Computer Applications,7.79,Application Developer
+B.Tech,Information Technology,6.54,IT Analyst
+B.Pharm,Pharmacy,8.89,Pharmacist
+B.Pharm,Pharmacy,7.36,Pharmacist
+B.Tech,Civil,7.21,Site Engineer
+B.Com,Banking,8.82,Bank Officer
+B.Sc,Mathematics,7.96,Quantitative Analyst
+B.Tech,Data Science,7.66,Data Scientist
+B.Pharm,Pharmacy,8.83,Pharmacist
+MCA,Computer Applications,6.85,Application Developer
+MCA,Computer Applications,8.98,Application Developer
+MBBS,General Medicine,8.18,Doctor
+MBBS,General Medicine,8.23,Doctor
+B.Pharm,Pharmacy,7.59,Pharmacist
+B.Pharm,Pharmacy,8.44,Pharmacist
+B.Com,Banking,6.87,Bank Officer
+BA,Economics,8.26,Economic Analyst
+MBA,Marketing,7.75,Marketing Manager
+MCA,Computer Applications,8.36,Application Developer
+MBA,HR,8.02,HR Executive
+B.Sc,Physics,8.36,Research Associate
+MCA,Computer Applications,8.1,Application Developer
+BBA,Entrepreneurship,6.77,Business Development Executive
+MBBS,General Medicine,8.88,Doctor
+B.Pharm,Pharmacy,8.79,Pharmacist
+BA,Economics,6.78,Economic Analyst
+BBA,HR,8.43,HR Executive
+BA,Psychology,8.33,Counselor
+MBBS,General Medicine,7.46,Doctor
+BA,English,7.95,Content Specialist
+B.Sc,Chemistry,7.48,Lab Analyst
+B.Com,Finance,8.1,Financial Analyst
+B.Pharm,Pharmacy,6.76,Pharmacist
+B.Com,Taxation,6.61,Tax Consultant
+BA,Psychology,7.8,Counselor
+BA,Economics,8.53,Economic Analyst
+MCA,Computer Applications,7.28,Application Developer
+B.Pharm,Pharmacy,6.81,Pharmacist
+MCA,Computer Applications,8.43,Application Developer
+BBA,Entrepreneurship,6.8,Business Development Executive
+BA,English,8.65,Content Specialist
+MBA,Finance,7.56,Financial Analyst
+BA,Public Administration,7.15,Policy Analyst
+B.Pharm,Pharmacy,8.97,Pharmacist
+MCA,Computer Applications,7.99,Application Developer
+MBBS,General Medicine,6.69,Doctor
+B.Tech,Data Science,8.7,Data Scientist
+B.Com,Accounting,8.91,Accountant
+MBA,Marketing,7.02,Marketing Manager
+BBA,Entrepreneurship,7.98,Business Development Executive
+B.Sc,Biotechnology,6.74,Biotech Associate
+MBA,Operations,8.72,Operations Manager
+B.Pharm,Pharmacy,7.47,Pharmacist
+B.Sc,Mathematics,6.89,Quantitative Analyst
+B.Pharm,Pharmacy,7.67,Pharmacist
+MBA,Operations,8.41,Operations Manager
+MBA,Business Analytics,8.79,Business Analyst
+B.Sc,Statistics,7.06,Data Analyst
+B.Com,Finance,7.32,Financial Analyst
+B.Com,Taxation,7.43,Tax Consultant
+BA,Psychology,8.99,Counselor
+B.Tech,Mechanical,7.16,Mechanical Design Engineer
+MBBS,General Medicine,8.63,Doctor
+BA,Public Administration,7.54,Policy Analyst
+MCA,Computer Applications,8.2,Application Developer
+B.Sc,Chemistry,7.89,Lab Analyst
+B.Pharm,Pharmacy,7.84,Pharmacist
+BA,English,6.67,Content Specialist
+MBA,HR,7.05,HR Executive
+BBA,Finance,7.76,Financial Analyst
+MCA,Computer Applications,6.77,Application Developer
+MBBS,General Medicine,6.8,Doctor
+B.Com,Finance,6.67,Financial Analyst
+MCA,Computer Applications,8.49,Application Developer
+B.Tech,Data Science,6.68,Data Scientist
+BA,English,7.43,Content Specialist
+B.Com,Banking,7.89,Bank Officer
+BA,English,7.54,Content Specialist
+B.Pharm,Pharmacy,8.83,Pharmacist
+MBA,HR,7.89,HR Executive
+MCA,Computer Applications,8.24,Application Developer
+B.Com,Taxation,6.91,Tax Consultant
+B.Pharm,Pharmacy,8.02,Pharmacist
+B.Pharm,Pharmacy,6.78,Pharmacist
+BBA,Marketing,6.71,Marketing Manager
+B.Com,Banking,6.73,Bank Officer
+MBA,Operations,8.8,Operations Manager
+MBBS,General Medicine,7.78,Doctor
+B.Sc,Physics,8.62,Research Associate
+B.Pharm,Pharmacy,7.41,Pharmacist
+BBA,HR,7.03,HR Executive
+MBBS,General Medicine,7.19,Doctor
+B.Pharm,Pharmacy,7.19,Pharmacist
+B.Pharm,Pharmacy,7.21,Pharmacist
+MCA,Computer Applications,7.91,Application Developer
+B.Pharm,Pharmacy,7.63,Pharmacist
+B.Pharm,Pharmacy,8.55,Pharmacist
+BA,Public Administration,7.18,Policy Analyst
+BBA,Marketing,7.15,Marketing Manager
+BBA,Entrepreneurship,7.35,Business Development Executive
+B.Sc,Nursing,7.9,Staff Nurse
+MBBS,General Medicine,8.24,Doctor
+MBBS,General Medicine,6.98,Doctor
+BA,Psychology,8.46,Counselor
+MCA,Computer Applications,6.55,Application Developer
+MBBS,General Medicine,7.03,Doctor
+MBBS,General Medicine,6.77,Doctor
+B.Com,Accounting,7.88,Accountant
+BA,Psychology,8.53,Counselor
+MCA,Computer Applications,6.53,Application Developer
+B.Com,Accounting,6.91,Accountant
+MCA,Computer Applications,7.56,Application Developer
+MBA,HR,7.13,HR Executive
+MCA,Computer Applications,7.88,Application Developer
+BA,English,8.88,Content Specialist
+B.Com,Banking,6.51,Bank Officer
+MBA,Marketing,8.54,Marketing Manager
+BBA,Marketing,8.32,Marketing Manager
+BBA,Finance,8.6,Financial Analyst
+B.Sc,Physics,8.04,Research Associate
+BA,Public Administration,8.48,Policy Analyst
+MCA,Computer Applications,6.57,Application Developer
+BBA,HR,7.5,HR Executive
+BA,Public Administration,6.92,Policy Analyst
+BA,English,8.37,Content Specialist
+BA,English,8.79,Content Specialist
+B.Tech,Information Technology,7.76,IT Analyst
+MBBS,General Medicine,7.89,Doctor
+MCA,Computer Applications,7.3,Application Developer
+MCA,Computer Applications,8.42,Application Developer
+BA,Economics,8.22,Economic Analyst
+B.Tech,Electronics,8.85,Embedded Systems Engineer
+MBBS,General Medicine,7.52,Doctor
+B.Pharm,Pharmacy,8.89,Pharmacist
+B.Pharm,Pharmacy,8.25,Pharmacist
+MBBS,General Medicine,8.87,Doctor
+BBA,Entrepreneurship,6.78,Business Development Executive
+BA,English,8.16,Content Specialist
+BA,Economics,7.58,Economic Analyst
+B.Pharm,Pharmacy,8.07,Pharmacist
+B.Com,Accounting,7.63,Accountant
+B.Com,Banking,7.1,Bank Officer
+MBBS,General Medicine,6.76,Doctor
+MCA,Computer Applications,8.98,Application Developer
+B.Pharm,Pharmacy,8.15,Pharmacist
+BA,Psychology,7.31,Counselor
+MBBS,General Medicine,6.7,Doctor
+B.Sc,Chemistry,8.09,Lab Analyst
+MBA,Finance,7.27,Financial Analyst
+MBA,Operations,8.3,Operations Manager
+BBA,Finance,6.85,Financial Analyst
+MBA,Marketing,7.88,Marketing Manager
+MBA,Business Analytics,8.67,Business Analyst
+MBA,Marketing,8.48,Marketing Manager
+B.Pharm,Pharmacy,8.37,Pharmacist
+B.Pharm,Pharmacy,7.66,Pharmacist
+B.Com,Banking,7.99,Bank Officer
+MCA,Computer Applications,7.88,Application Developer
+B.Tech,Civil,7.38,Site Engineer
+BBA,HR,6.68,HR Executive
+BBA,HR,8.01,HR Executive
+BBA,Finance,8.47,Financial Analyst
+MBA,Finance,7.65,Financial Analyst
+MBA,Marketing,8.39,Marketing Manager
+B.Pharm,Pharmacy,6.84,Pharmacist
+B.Pharm,Pharmacy,8.03,Pharmacist
+B.Sc,Physics,8.19,Research Associate
+B.Tech,AI & ML,6.52,ML Engineer
+BBA,Entrepreneurship,7.63,Business Development Executive
+B.Pharm,Pharmacy,8.93,Pharmacist
+B.Com,Finance,7.65,Financial Analyst
+MBBS,General Medicine,6.56,Doctor
+B.Pharm,Pharmacy,7.63,Pharmacist
+B.Pharm,Pharmacy,7.53,Pharmacist
+B.Com,Finance,6.66,Financial Analyst
+B.Pharm,Pharmacy,7.61,Pharmacist
+MCA,Computer Applications,6.76,Application Developer
+MBA,HR,8.81,HR Executive
+B.Com,Taxation,7.3,Tax Consultant
+BA,Public Administration,8.42,Policy Analyst
+B.Pharm,Pharmacy,6.95,Pharmacist
+B.Tech,Information Technology,7.55,IT Analyst
+BA,Public Administration,7.84,Policy Analyst
+MCA,Computer Applications,7.92,Application Developer
+BA,Public Administration,8.42,Policy Analyst
+BBA,Entrepreneurship,8.91,Business Development Executive
+BBA,Entrepreneurship,6.57,Business Development Executive
+MBA,Operations,7.62,Operations Manager
+MBA,Operations,8.87,Operations Manager
+MBA,HR,8.75,HR Executive
+MBA,Operations,8.99,Operations Manager
+MBA,Operations,8.43,Operations Manager
+MBBS,General Medicine,8.04,Doctor
+MBA,Operations,8.94,Operations Manager
+B.Tech,Information Technology,6.67,IT Analyst
+B.Com,Finance,6.69,Financial Analyst
+B.Com,Taxation,7.77,Tax Consultant
+MCA,Computer Applications,6.57,Application Developer
+B.Pharm,Pharmacy,7.67,Pharmacist
+MBBS,General Medicine,7.56,Doctor
+MBA,Operations,8.09,Operations Manager
+MBA,Operations,8.68,Operations Manager
+BA,Public Administration,7.81,Policy Analyst
+BBA,HR,8.41,HR Executive
+BBA,HR,7.87,HR Executive
+MBBS,General Medicine,7.78,Doctor
+B.Com,Accounting,8.44,Accountant
+MBA,Marketing,7.19,Marketing Manager
+B.Sc,Biotechnology,6.53,Biotech Associate
+B.Sc,Chemistry,7.43,Lab Analyst
+B.Pharm,Pharmacy,8.58,Pharmacist
+MBA,Business Analytics,7.42,Business Analyst
+MBA,Operations,6.87,Operations Manager
+MBA,Business Analytics,6.92,Business Analyst
+B.Com,Accounting,8.99,Accountant
+B.Sc,Biotechnology,8.02,Biotech Associate
+MBBS,General Medicine,6.52,Doctor
+BA,Psychology,7.89,Counselor
+MBA,Marketing,7.16,Marketing Manager
+B.Com,Accounting,8.15,Accountant
+MCA,Computer Applications,8.84,Application Developer
+B.Com,Accounting,7.12,Accountant
+B.Tech,Electronics,8.47,Embedded Systems Engineer
+MCA,Computer Applications,7.89,Application Developer
+B.Com,Taxation,7.28,Tax Consultant
+BA,English,7.26,Content Specialist
+B.Com,Finance,8.01,Financial Analyst
+BBA,HR,8.25,HR Executive
+MBA,Business Analytics,6.58,Business Analyst
+B.Pharm,Pharmacy,6.63,Pharmacist
+MBBS,General Medicine,8.35,Doctor
+MCA,Computer Applications,7.64,Application Developer
+MBA,Operations,6.75,Operations Manager
+MCA,Computer Applications,7.49,Application Developer
+BBA,HR,7.76,HR Executive
