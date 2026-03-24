@@ -4,6 +4,7 @@ import joblib
 import plotly.express as px
 import re
 import email
+import io
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, confusion_matrix
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -40,9 +41,24 @@ if "user_email" not in st.session_state:
 if "user_id" not in st.session_state:
     st.session_state.user_id = None
 
+if "edit_profile" not in st.session_state:
+    st.session_state.edit_profile = False
+
 # -------- USER DATA --------
 if "prediction_history" not in st.session_state:
     st.session_state.prediction_history = []
+
+# ---------------- URL ROUTING FIX ----------------
+query_params = st.query_params
+if "page" in query_params:
+    st.session_state.page = query_params["page"]
+
+# ---------------- ADMIN CONFIG ----------------
+ADMIN_USERNAME = "admin"
+ADMIN_PASSWORD = "admin123"
+
+if "is_admin" not in st.session_state:
+    st.session_state.is_admin = False
 
 # -------------------------------------------------
 # GLOBAL CSS
@@ -142,21 +158,41 @@ header[data-testid="stHeader"] {display:none;}
 }
 
 /* Buttons */
+/* ================= GLOBAL BUTTON STYLE ================= */
+
+/* ===== PROFESSIONAL BUTTON SYSTEM ===== */
+
 .stButton > button {
-    background: linear-gradient(90deg,#6366f1,#8b5cf6) !important;
-    color:white !important;
-    border:none !important;
-    border-radius:50px !important;
-    height:50px !important;
-    width:220px !important;
-    font-weight:600 !important;
-    box-shadow:0 10px 30px rgba(99,102,241,0.5) !important;
+    background: transparent !important;
+    color: #e2e8f0 !important;
+    border: 1px solid rgba(255,255,255,0.2) !important;
+    border-radius: 8px !important;
+    height: 36px !important;
+    padding: 0 14px !important;
+    font-size: 13px !important;
+    font-weight: 500 !important;
+    box-shadow: none !important;
+    transition: all 0.2s ease !important;
 }
 
+/* Hover */
 .stButton > button:hover {
-    transform: translateY(-3px) !important;
+    background: rgba(255,255,255,0.08) !important;
+    border: 1px solid #6366f1 !important;
+    color: white !important;
 }
 
+/* Delete button */
+button[kind="secondary"] {
+    background: rgba(239,68,68,0.1) !important;
+    color: #ef4444 !important;
+    border: 1px solid rgba(239,68,68,0.4) !important;
+}
+
+button[kind="secondary"]:hover {
+    background: #ef4444 !important;
+    color: white !important;
+}
 /* ================= FEATURES ================= */
 
 .feature-card {
@@ -231,9 +267,75 @@ label {
     padding:60px 0;
     color:#94a3b8;
 }
+            /* ================= ADMIN PANEL PREMIUM ================= */
+
+.admin-card {
+    background: rgba(255,255,255,0.05);
+    padding: 20px;
+    border-radius: 16px;
+    border: 1px solid rgba(255,255,255,0.08);
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.3s ease;
+}
+
+.admin-card:hover {
+    transform: translateY(-4px);
+    border: 1px solid #6366f1;
+    box-shadow: 0 10px 30px rgba(99,102,241,0.3);
+}
+
+.admin-user-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.admin-username {
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.admin-email {
+    font-size: 14px;
+    color: #94a3b8;
+}
+
+.admin-delete-btn {
+    background: linear-gradient(90deg,#ef4444,#dc2626);
+    padding: 8px 18px;
+    border-radius: 25px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+}
+
+.admin-search {
+    margin-bottom: 20px;
+}
 </style>
 """, unsafe_allow_html=True)
 
+# ---------------- ADMIN LOGIN ----------------
+def admin_login():
+    st.markdown("<h2 style='text-align:center;'>🔐 Admin Login</h2>", unsafe_allow_html=True)
+
+    col1, col2, col3 = st.columns([1,2,1])
+
+    with col2:
+        username = st.text_input("Admin Username")
+        password = st.text_input("Password", type="password")
+
+        if st.button("Login"):
+            if username == ADMIN_USERNAME and password == ADMIN_PASSWORD:
+                st.session_state.is_admin = True
+                st.session_state.page = "admin"
+                st.rerun()
+            else:
+                st.error("Invalid credentials")
 # ======================================================
 # LANDING PAGE
 # ======================================================
@@ -251,7 +353,7 @@ if st.session_state.page == "landing":
                 <a class="nav-link" href="#top">Home</a>
                 <a class="nav-link" href="#features">Features</a>
                 <a class="nav-link" href="#contact">Contact</a>
-                <a class="nav-btn" href="?page=predictor">Get Started</a>
+                <a class="nav-link" href="?page=admin">Admin</a>
             </div>
         </div>
         """, unsafe_allow_html=True)
@@ -407,6 +509,15 @@ elif st.session_state.page == "auth":
 # DASHBOARD PAGE
 # ======================================================                   
 elif st.session_state.page == "dashboard":
+    df = pd.read_csv("job_dataset.csv")
+    FIELD_SKILLS = df.groupby("Specialization")["JobRole"].unique().to_dict()
+    st.markdown("""
+        <div style="
+            max-width:900px;
+            margin:0 auto;
+            padding-top:30px;
+        ">
+        """, unsafe_allow_html=True)
 
         # ---------------- DASHBOARD NAVBAR ----------------
     nav1, nav2, nav3, nav4 = st.columns([6,2,2,2])
@@ -421,7 +532,7 @@ elif st.session_state.page == "dashboard":
 
     with nav3:
         if st.button("👤 Profile"):
-            st.session_state.page = "dashboard"
+            st.session_state.edit_profile = True
             st.rerun()
 
     with nav4:
@@ -441,40 +552,79 @@ elif st.session_state.page == "dashboard":
     col1, col2 = st.columns([1,2])
 
     # ---------------- PROFILE CARD ----------------
-    with col1:
-        if profile:
-            name = profile[1] or ""
-            role = profile[2] or "Student"
-            field = profile[3] or ""
-            skills = profile[4] or ""
-            complete = profile[5]
-        else:
-            name = role = field = skills = ""
-            complete = 40
+    profile = get_profile(user_id)
+
+    if profile:
+        name = profile[1] or ""
+        role = profile[2] or "Student"
+        field = profile[3] or ""
+        skills = profile[4] or ""
+        complete = profile[5]
+    else:
+        name = role = field = skills = ""
+        complete = 40
+
+
+    # ================= SHOW PROFILE =================
+    if not st.session_state.edit_profile:
 
         st.markdown(f"""
-        ### 👤 Profile
-        **Name:** {name if name else "Not Set"}  
-        **Role:** {role}  
-        **Field:** {field if field else "Not Set"}  
-        **Skills:** {skills if skills else "Not Set"}  
-        **Completion:** {complete}%
-        """)
+        <div style="
+            padding:25px;
+            border-radius:16px;
+            background: rgba(255,255,255,0.05);
+            border:1px solid rgba(255,255,255,0.08);
+            margin-bottom:30px;
+        ">
+        <h3>👤 Profile</h3>
+        <p><b>Name:</b> {name if name else "Not Set"}</p>
+        <p><b>Role:</b> {role}</p>
+        <p><b>Field:</b> {field if field else "Not Set"}</p>
+        <p><b>Skills:</b> {skills if skills else "Not Set"}</p>
+        <p><b>Completion:</b> {complete}%</p>
+        </div>
+        """, unsafe_allow_html=True)
 
-    # ---------------- EDIT PROFILE ----------------
-    with col2:
+
+    # ================= SHOW EDIT PROFILE =================
+    else:
+
         st.markdown("### ✏ Edit Profile")
 
-        name = st.text_input("Full Name", value=name)
-        role = st.selectbox("Role", ["Student","Job Seeker","Professional"])
-        field = st.text_input("Field of Interest", value=field)
-        skills = st.text_area("Skills (comma separated)", value=skills)
+        name_input = st.text_input("Full Name", value=name)
+        role_input = st.selectbox("Role", ["Student","Job Seeker","Professional"])
+        # FIELD (Specialization from dataset)
+        field_options = sorted(df["Specialization"].unique())
 
+        selected_field = st.selectbox(
+            "Field of Interest (Specialization)",
+            field_options,
+            index=field_options.index(field) if field in field_options else 0
+            )
+
+            # SKILLS (Job Roles based on field)
+        skills_options = FIELD_SKILLS[selected_field]
+
+        selected_skills = st.multiselect(
+            "Skills / Career Roles",
+            skills_options,
+            default=[s.strip() for s in skills.split(",")
+                if s.strip() in skills_options]
+                if skills else []
+            )
         if st.button("💾 Save Profile"):
-            save_profile(user_id, name, role, field, skills)
-            st.success("Profile Updated!")
-            st.rerun()
+            skills_str = ", ".join(selected_skills)
 
+            save_profile(
+                user_id,
+                name_input,
+                role,
+                selected_field,
+                skills_str
+            )
+            st.success("Profile Updated!")
+            st.session_state.edit_profile = False
+            st.rerun()
     st.markdown("---")
 
     # ---------------- QUICK ACTIONS ----------------
@@ -497,6 +647,173 @@ elif st.session_state.page == "dashboard":
             st.session_state.page = "jobs"
             st.rerun()
 
+# ======================================================
+# ADMIN PANEL
+# ======================================================
+elif st.session_state.page == "admin":
+
+    if not st.session_state.is_admin:
+        admin_login()
+
+    else:
+        st.markdown("## 🚀 Admin Dashboard")
+
+        # -------- TOP BAR --------
+        col1, col2 = st.columns([8,2])
+
+        with col1:
+            st.markdown("### 👨‍💼 Admin Control Center")
+
+        with col2:
+            st.markdown("<br>", unsafe_allow_html=True)
+            if st.button("🚪 Logout"):
+                st.session_state.is_admin = False
+                st.session_state.page = "landing"
+                st.rerun()
+
+        st.markdown("---")
+
+        tab1, tab2, tab3 = st.tabs(["👥 Users", "📈 Predictions", "📊 Analytics"])
+
+        conn = get_connection()
+        cur = conn.cursor()
+
+        # ======================================================
+        # USERS TAB
+        # ======================================================
+        with tab1:
+            st.subheader("👥 User Management")
+
+            st.markdown('<div class="admin-search">', unsafe_allow_html=True)
+            search = st.text_input("🔍 Search user", placeholder="Enter username or email...")
+            st.markdown('</div>', unsafe_allow_html=True)
+
+            cur.execute("SELECT id, username, email FROM users")
+            users = cur.fetchall()
+
+            filtered = []
+            for u in users:
+                if search.lower() in u[1].lower() or search.lower() in u[2].lower():
+                    filtered.append(u)
+
+            if filtered:
+                for u in filtered:
+                    st.markdown(f"""
+                    <div style="
+                        display:flex;
+                        justify-content:space-between;
+                        align-items:center;
+                        padding:16px 20px;
+                        border-radius:14px;
+                        background: rgba(255,255,255,0.04);
+                        border:1px solid rgba(255,255,255,0.08);
+                        margin-bottom:12px;
+                    ">
+                        <div>
+                            <div style="font-weight:600;">👤 {u[1]}</div>
+                            <div style="font-size:13px; color:#94a3b8;">📧 {u[2]}</div>
+                        </div>
+                    </div>
+                    """, unsafe_allow_html=True)
+
+                    col1, col2 = st.columns([9,1])
+
+                    with col2:
+                        if st.button("Delete", key=f"del_user_{u[0]}"):
+                            cur.execute("DELETE FROM users WHERE id=?", (u[0],))
+                            conn.commit()
+                            st.rerun()
+            else:
+                st.info("No users found")
+
+        # ======================================================
+        # PREDICTIONS TAB
+        # ======================================================
+        with tab2:
+            st.subheader("📈 Prediction Monitoring")
+
+            role_filter = st.text_input("🎯 Filter by Job Role")
+
+            cur.execute("""
+                SELECT predicted_role, confidence, degree, specialization, cgpa, created_at
+                FROM predictions
+                ORDER BY created_at DESC
+            """)
+            rows = cur.fetchall()
+
+            filtered_rows = []
+            for r in rows:
+                if role_filter.lower() in r[0].lower():
+                    filtered_rows.append(r)
+
+            if filtered_rows:
+                for r in filtered_rows:
+                    st.markdown(f"""
+                    <div style="
+                        padding:15px;
+                        margin-bottom:10px;
+                        border-radius:12px;
+                        background: rgba(255,255,255,0.05);
+                    ">
+                    🎯 <b>{r[0]}</b> ({r[1]:.2f}%)<br>
+                    🎓 {r[2]} • {r[3]} • CGPA: {r[4]}<br>
+                    📅 {r[5]}
+                    </div>
+                    """, unsafe_allow_html=True)
+            else:
+                st.info("No predictions found")
+
+            # -------- EXPORT BUTTON --------
+            df = pd.read_sql_query("SELECT * FROM predictions", conn)
+
+            if not df.empty:
+                csv = df.to_csv(index=False).encode('utf-8')
+                st.download_button(
+                    "📥 Download Predictions CSV",
+                    data=csv,
+                    file_name="predictions.csv",
+                    mime="text/csv"
+                )
+
+        # ======================================================
+        # ANALYTICS TAB
+        # ======================================================
+        with tab3:
+            st.subheader("📊 Advanced Analytics")
+
+            cur.execute("SELECT COUNT(*) FROM users")
+            users_count = cur.fetchone()[0]
+
+            cur.execute("SELECT COUNT(*) FROM predictions")
+            pred_count = cur.fetchone()[0]
+
+            m1, m2 = st.columns(2)
+            m1.metric("👥 Users", users_count)
+            m2.metric("📈 Predictions", pred_count)
+
+            df = pd.read_sql_query("SELECT predicted_role, created_at FROM predictions", conn)
+
+            if not df.empty:
+
+                # Pie Chart
+                fig1 = px.pie(df, names="predicted_role", title="Job Distribution")
+                st.plotly_chart(fig1, use_container_width=True)
+
+                # Bar Chart
+                fig2 = px.histogram(df, x="predicted_role", title="Prediction Frequency")
+                st.plotly_chart(fig2, use_container_width=True)
+
+                # Timeline
+                df["created_at"] = pd.to_datetime(df["created_at"])
+                timeline = df.groupby(df["created_at"].dt.date).size().reset_index(name="count")
+
+                fig3 = px.line(timeline, x="created_at", y="count", title="Prediction Trends")
+                st.plotly_chart(fig3, use_container_width=True)
+
+            else:
+                st.info("No analytics data available")
+
+        conn.close()
 # ======================================================
 # PREDICTION HISTORY PAGE
 # ======================================================
@@ -595,6 +912,7 @@ elif st.session_state.page == "predictor":
         st.rerun()
     model = joblib.load("model_pipeline.pkl")
     df = pd.read_csv("job_dataset.csv")
+    FIELD_SKILLS = df.groupby("Specialization")["JobRole"].unique().to_dict()
 
     # Container wrapper
     st.markdown("""

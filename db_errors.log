@@ -12,3 +12,17 @@ Traceback (most recent call last):
     raise WebSocketClosedError()
 tornado.websocket.WebSocketClosedError
 2026-03-17 00:27:25,861 - ERROR - ADD USER ERROR: UNIQUE constraint failed: users.email
+2026-03-24 13:01:38,457 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-375' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\Dell\Desktop\infosys\JOB_MATCH\Final_Project\venv\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\Dell\Desktop\infosys\JOB_MATCH\Final_Project\venv\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\Desktop\infosys\JOB_MATCH\Final_Project\venv\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2026-03-24 14:12:17,607 - ERROR - ADD USER ERROR: UNIQUE constraint failed: users.email
